@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+/* Navbar container */
+.navbar {
+  list-style-type: none;       /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  background-color: #004080;   /* Navy blue background */
+  display: flex;               /* Make items horizontal */
+  justify-content: center;     /* Center the menu */
+}
+
+/* Navbar items */
+.navbar li {
+  margin: 0;
+}
+
+/* Navbar links */
+.navbar li a {
+  display: block;
+  color: white;                /* Text color */
+  text-align: center;
+  padding: 14px 20px;           /* Space around text */
+  text-decoration: none;        /* Remove underline */
+  transition: background 0.3s;  /* Smooth hover effect */
+}
+
+/* Hover effect */
+.navbar li a:hover {
+  background-color: #0066cc;    /* Lighter blue on hover */
+}
+
+/* Optional: make navbar stick to top */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
